@@ -1,0 +1,11 @@
+{
+  "description": "Test Local Build",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "scripts": {
+    "build": "node_modules/gulp/bin/gulp.js build"
+  }
+}

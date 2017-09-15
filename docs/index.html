@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Title</title>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <!-- break on breakpoint on button press !-->
+    <input type="button" onclick="log(getTitle() + 'button press')" value="Do the magic">
+    <script>
+        // doesn't break on breakpoint on page load
+        log(getTitle() + ': page load');
+    </script>
+</body>
+</html>
